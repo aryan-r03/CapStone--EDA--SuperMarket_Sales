@@ -8,8 +8,8 @@ A comprehensive exploratory data analysis (EDA) and machine learning project on 
 
 | File | Description |
 |------|-------------|
-| `CapStone-2.ipynb` | Main Jupyter Notebook with all analysis and visualizations |
-| `capstone-2.py` | Python script version of the notebook |
+| `CapStone.ipynb` | Main Jupyter Notebook with all analysis and visualizations |
+| `CapStone.py` | Python script version of the notebook |
 | `supermarket_sales.csv` | Raw dataset (1,000 transactions) |
 
 ---
@@ -104,12 +104,12 @@ pip install pandas numpy matplotlib seaborn scikit-learn
 
 **Jupyter Notebook:**
 ```bash
-jupyter notebook CapStone-2.ipynb
+jupyter notebook CapStone.ipynb
 ```
 
 **Python Script:**
 ```bash
-python capstone-2.py
+python CapStone.py
 ```
 
 > **Note:** Ensure `supermarket_sales.csv` is in the same directory as the script, and update the file path in the `pd.read_csv(...)` call if needed.
